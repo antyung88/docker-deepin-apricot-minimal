@@ -1,6 +1,6 @@
 FROM debian:bullseye
 
-ENV DEEPIN_MIRROR=http://packages.deepin.com/deepin/
+ENV DEEPIN_MIRROR=https://community-packages.deepin.com/deepin/
 
 ENV DEEPIN_RELEASE=apricot
 
