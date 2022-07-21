@@ -13,4 +13,4 @@ jobs:
       - name: Check Out Repo 
         uses: actions/checkout@v3
       - run: |
-          docker build . -t ghcr.io/${{ secrets.USER }}/${{ secrets.IMAGE }}:test
+          docker build .
